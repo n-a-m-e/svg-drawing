@@ -1,0 +1,93 @@
+﻿/* CSS */
+body
+{
+	font-family: arial, helvetica, sans-serif;
+	font-size: 85%;
+	margin: 10px 15px;
+	color: #333;
+	background-color: #ddd;
+}
+
+h1
+{
+	font-size: 1.6em;
+	font-weight: normal;
+	margin: 0 0 0.3em 0;
+}
+
+h2
+{
+	font-size: 1.4em;
+	font-weight: normal;
+	margin: 1.5em 0 0 0;
+}
+
+p
+{
+	margin: 1em 0;
+}
+
+#svg
+{
+	display: inline;
+	float: left;
+	width: 600px;
+	height: 600px;
+	margin: 0 10px 10px 0;
+	background-color: #fff;
+	user-drag: none; 
+	-moz-user-select: none;
+	-webkit-user-drag: none;
+}
+
+#code
+{
+	display: block;
+	width: auto;
+	height: 4em;
+	font-family: monospace;
+	font-size: 1.2em;
+	padding: 2px 4px;
+	margin: 0;
+	color: #555;
+	background-color: #eee;
+	border: 1px solid #999;
+	overflow: auto;
+}
+
+/* SVG styles */
+path
+{
+	stroke-width: 8;
+	stroke: #000;
+	stroke-linecap: round;
+	fill: none;
+}
+
+path.fill
+{
+	fill: #3ff;
+}
+
+circle
+{
+	stroke-width: 2;
+	stroke: #c00;
+	fill: #c00;
+	opacity: 0.3;
+}
+
+circle:hover
+{
+	fill: #c00;
+	opacity: 0.6;
+	cursor: move;
+}
+
+polyline
+{
+	stroke-width: 1.5;
+	stroke: #999;
+	stroke-linecap: round;
+	stroke-dasharray: 5,3;
+}
